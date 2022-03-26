@@ -1,5 +1,5 @@
 class Solution:
-    def generate(self, numRows: int) -> List[List[int]]:
+    def generate(self, numRows):
         list1 = [[1],[1,1]]
         list2 = []
         if numRows == 0:
